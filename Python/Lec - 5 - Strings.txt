@@ -1,0 +1,130 @@
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> food='samosa'
+>>> food[0]
+'s'
+>>> food[1]
+'a'
+>>> #To access the last carecter
+>>> food[-1]
+'a'
+>>> food[-2]
+'s'
+>>> food[0:2]
+'sa'
+>>> food[0:3]
+'sam'
+>>> #food[0:2] print from 0 and 1 ->from 0 to previous of index 2
+>>> food[:2]
+'sa'
+>>> food[2:]
+'mosa'
+>>> food[-3:]
+'osa'
+>>> len(food)
+6
+>>> myfood='samosa,jalebi'
+>>> 'jalebi' in myfood
+True
+>>> 'Jalebi' in myfood
+False
+'biryani' in myfood
+False
+'biryani' not in myfood
+True
+#food="samosa" and food='samosa' are same double quot
+food="samosa"
+food[0]='x'
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    food[0]='x'
+TypeError: 'str' object does not support item assignment
+myfood='samosa,jalebi'
+'samosa' in myfood
+True
+myfood
+'samosa,jalebi'
+myfood.replace('samosa','biryani')
+'biryani,jalebi'
+myfood
+'samosa,jalebi'
+myfood=
+KeyboardInterrupt
+myfood=myfood.replace('samosa','biryani')
+myfood
+'biryani,jalebi'
+#listing of string function
+dir(myfood)
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+myfood.upper()
+'BIRYANI,JALEBI'
+myfood
+'biryani,jalebi'
+'ABC'.lower()
+'abc'
+s='420'
+s.isdigit()
+True
+s='420chor'
+s.isdigit()
+False
+myfood
+'biryani,jalebi'
+myyfood.index('jalebi')
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    myyfood.index('jalebi')
+NameError: name 'myyfood' is not defined. Did you mean: 'myfood'?
+myfood.index('jalebi')
+8
+'foo'+'bar'
+'foobar'
+states=29
+text='states in india'
+text+states
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    text+states
+TypeError: can only concatenate str (not "int") to str
+text+str(states)
+'states in india29'
+s = 'let's learn python'
+SyntaxError: unterminated string literal (detected at line 1)
+#usa alt + p shortcut to repeat last code line
+s = "let's learn python"
+s = 'let\'s learn python'
+#\' means ' is a part of the string
+s='hello "world"'
+s
+'hello "world"'
+s="hello "world""
+SyntaxError: invalid syntax
+s="hello \"world\""
+s
+'hello "world"'
+>>> dialog='kitne aadami the?
+SyntaxError: unterminated string literal (detected at line 1)
+>>> #use triple quote ''' for multiline string
+>>> dialog='''kitne aadmi the?
+... kalia: sardar, do'''
+>>> dialog
+'kitne aadmi the?\nkalia: sardar, do'
+>>> print(dialog)
+kitne aadmi the?
+kalia: sardar, do
+>>> #\t means tab
+>>> s='hey\tbro'
+>>> print(s)
+hey	bro
+>>> s='hey\nbro'
+>>> print(s)
+hey
+bro
+>>> first='sachin'
+>>> last='tendulkar'
+>>> print('best cricket player: ',first+' '+last)
+best cricket player:  sachin tendulkar
+>>> #in py 3.1 better rule
+>>> print(f'best cricet player:{first} {last}')
+best cricet player:sachin tendulkar
+>>> 

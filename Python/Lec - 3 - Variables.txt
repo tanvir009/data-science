@@ -1,0 +1,81 @@
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> rent = 8000
+>>> rent
+8000
+>>> petrol=500.5
+>>> groceries=2050.5
+>>> petrol
+500.5
+>>> groceries
+2050.5
+>>> total = rent + petrol + groceries
+>>> total
+10551.0
+>>> gabbar="amjad khan"
+>>> jay = "amitabh"
+>>> thakur = "sanjiv kumar"
+>>> gabbar
+'amjad khan'
+>>> jay
+'amitabh'
+>>> thakur
+'sanjiv kumar'
+>>> type(gabbar)
+<class 'str'>
+>>> type(petrol)
+<class 'float'>
+>>> type(rent)
+<class 'int'>
+>>> learn_python=True
+>>> learn_fortran=False
+learn_python
+True
+>>> learn_python=True
+>>> learn_fortran=False
+>>> learn_python
+True
+>>> type(learn_python)
+<class 'bool'>
+>>> #can't use reserve keywords(e.g. True, for)
+>>> True=5
+SyntaxError: cannot assign to True
+>>> #Special characters (e.g. $, #) not allowed
+>>> foo+bar=5
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+>>> #3 variable name must begin with letter or _
+>>> 4you=4
+SyntaxError: invalid decimal literal
+>>> $sdfsdf=5
+SyntaxError: invalid syntax
+>>> 
+>>> #4 Remaining char should be a-z, A-Z, 0-9 or _
+>>> abc$sdf=5
+SyntaxError: invalid syntax
+>>> 
+>>> #5 Variable names are case sensitive
+>>> bade_bhai=10
+>>> bade_Bhai=5
+>>> bade_bhai
+10
+>>> bade_Bhai
+5
+>>> foo=5
+>>> foo="jalebi"
+>>> #for that it called dynamically typed language
+>>> foo
+'jalebi'
+>>> bar=foo
+>>> id(bar)
+2746356643696
+>>> id(foo)
+2746356643696
+>>> bar="samosa"
+bar
+'samosa'
+foo
+'jalebi'
+foo="kachodi"
+foo
+'kachodi'
+

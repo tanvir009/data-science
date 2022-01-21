@@ -1,0 +1,69 @@
+>>> base=10.2
+>>> height=20.5
+>>> base
+10.2
+>>> area=(1/2)*base*height
+>>> areaa
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    areaa
+NameError: name 'areaa' is not defined. Did you mean: 'area'?
+>>> area
+104.55
+>>> foo=1.2466777777
+>>> foo
+1.2466777777
+>>> round(foo,2)
+1.25
+>>> 1+2
+3
+>>> 1/2
+0.5
+>>> 17%3
+2
+>>> 3**2
+9
+>>> # 3**2 = 3^2
+10+2*3
+16
+(10+2)*3
+36
+type(5)
+<class 'int'>
+type(area)
+<class 'float'>
+
+foo=2.3e-3
+foo
+0.0023
+#print hex num
+0x12
+18
+0x22
+34
+cl=2+3j
+type(c1)
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    type(c1)
+NameError: name 'c1' is not defined. Did you mean: 'cl'?
+c1 = 2+3i
+SyntaxError: invalid decimal literal
+c1=2+3j
+type(c1)
+<class 'complex'>
+c2=3-4j
+c1+c2
+(5-1j)
+5
+5
+#convert a number into binary
+format(5,'b')
+'101'
+6-5.7
+0.2999999999999998
+#reason ieee 754
+round(6-5.7, 2)
+0.3
+round(6-5.7, 3)
+0.3
