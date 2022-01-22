@@ -1,0 +1,10 @@
+n1 = input("Enter first number ")
+n2 = input("Enter second number ")
+print(n1,n2)
+print(type(n1)) #here show type <class str>
+#so sum = n1+n2 gives wrong output
+sum = float(n1) + float(n2)
+print("sum is : ",sum)
+
+sum2 = n1+n2;
+print("sum is : ",sum2) #gives n1n2 as output
