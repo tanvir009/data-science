@@ -1,0 +1,63 @@
+#code to check even or Odd
+n = input("Enter a number")
+n = int(n) #number is taken as string so convert it to int
+
+if n%2==0:
+    print("Number is even")
+else:
+    print("Number is odd")
+#using ternary operator
+
+n = input("Enter a number")
+n = int(n) #number is taken as string so convert it to int
+
+message="Number is even" if n%2==0 else "Number is odd"
+print(message)
+
+
+#cuisine check program:
+
+indian=["samosa","kachori","dal","naan"]
+pakistani=["nihari","paya","karahi"]
+bangladeshi=["panta bhat","chorchori","fuchka"]
+
+dish = input("Enter a dish name:")
+
+if dish in indian:
+    print(f"{dish} is Indian")
+elif dish in pakistani:
+    print(f"{dish} is pakistani")
+elif dish in bangladeshi:
+    print(f"{dish} is bangladeshi")
+else:
+    print("Based on my limited knowledge, I don't know which cuisine is {dish}")
+
+#Sample Idle Code
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #IDLE
+>>> 4==4
+True
+>>> 4==5
+False
+>>> 2>3
+False
+>>> 2<3
+True
+>>> 2>=2
+True
+>>> 4<=4
+True
+>>> 3>2 and 3>1
+True
+>>> 3>2 and 3>4
+False
+>>> 3>2 or 3>4
+True
+>>> 3>2 or 3>4 or 4<5
+True
+>>> 4 == 4
+True
+>>> not 4==4
+False
+>>> 
